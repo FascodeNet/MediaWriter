@@ -354,6 +354,7 @@ Release *ReleaseListModel::get(int index) {
 
 
 QString Release::sourceString() {
+    return tr("Alter Linux");
     switch (m_source) {
     case LOCAL:
     case PRODUCT:
