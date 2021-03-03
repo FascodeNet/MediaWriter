@@ -310,6 +310,7 @@ ReleaseListModel::ReleaseListModel(ReleaseManager *parent)
         Release::Source source = sourceString == "product" ? Release::PRODUCT :
                                  sourceString == "spins"   ? Release::SPINS :
                                  sourceString == "labs"    ? Release::LABS :
+                                 sourceString == "alter"    ? Release::ALTER :
                                                              Release::OTHER;
         QString name = obj["name"].toString();
         QString summary = obj["summary"].toString();
@@ -354,7 +355,7 @@ Release *ReleaseListModel::get(int index) {
 
 
 QString Release::sourceString() {
-    return tr("Alter Linux");
+    //
     switch (m_source) {
     case LOCAL:
     case PRODUCT:
@@ -363,6 +364,8 @@ QString Release::sourceString() {
         return tr("Fedora Spins");
     case LABS:
         return tr("Fedora Labs");
+    case ALTER:
+        return tr("Alter Linux");
     default:
         return tr("Other");
     }

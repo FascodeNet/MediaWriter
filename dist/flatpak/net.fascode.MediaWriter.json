@@ -1,5 +1,5 @@
 {
-    "id": "org.fedoraproject.MediaWriter",
+    "id": "net.fascode.MediaWriter",
     "runtime": "org.kde.Platform",
     "runtime-version": "5.15",
     "sdk": "org.kde.Sdk",
@@ -37,7 +37,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/FedoraQt/MediaWriter.git",
+                    "url": "https://github.com/FascodeNet/fascode-os-writer.git",
                     "branch": "master"
                 },
                 {

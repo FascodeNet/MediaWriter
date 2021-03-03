@@ -41,3 +41,15 @@ build/
 
 #junk
 .DS_Store
+app/mediawriter
+app/moc_predefs.h
+helper/linux/helper
+helper/linux/moc_predefs.h
+theme/adwaitathemeplugin_metatypes.json
+theme/adwaitathemeplugin_qmltyperegistrations.cpp
+theme/moc_adwaitathemeplugin.cpp.json
+theme/moc_icon.cpp.json
+theme/moc_predefs.h
+theme/moc_theme.cpp.json
+theme/plugins.qmltypes
+

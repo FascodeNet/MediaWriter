@@ -1,7 +1,7 @@
 [
     {
-        "subvariant": "none",
-        "category": "spins",
+        "subvariant": "xfce",
+        "category": "alter",
         "name": "Alter Linux Xfce Edition",
         "summary": "Alter Linux Xfce Edition",
         "icon": "qrc:/logos/workstation",
