@@ -410,7 +410,7 @@ bool Release::updateUrl(int version, const QString &status, const QString &type,
         if (i->status() == ReleaseVersion::FINAL)
             finalVersions++;
     }
-    ReleaseVersion::Status s = status == "alpha" ? ReleaseVersion::ALPHA : status == "beta" ? ReleaseVersion::BETA : ReleaseVersion::FINAL;
+    ReleaseVersion::Status s = status == "alpha" ? ReleaseVersion::ALPHA : status == "beta" ? ReleaseVersion::BETA : status == "rc" ? ReleaseVersion::RELEASE_CANDIDATE : ReleaseVersion::FINAL;
     auto ver = new ReleaseVersion(this, version, s, releaseDate);
     auto variant = new ReleaseVariant(ver, url, sha256, size, ReleaseArchitecture::fromAbbreviation(architecture));
     ver->addVariant(variant);
