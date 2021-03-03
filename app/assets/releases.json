@@ -3,7 +3,7 @@
       "version": "3",
       "arch": "x86_64",
       "link": "https://osdn.net/frs/redir.php?m=jaist&f=%2Fstorage%2Fg%2Fa%2Fal%2Falterlinux%2Fiso%2Frelease-candidate%2Frc3%2F2020.12.30%2Fxfce-jp%2Falterlinux-xfce-ja-2020.12.30-bcf92d0d-x86_64.iso",
-      "variant": "alter-xfce",
-      "subvariant": "Server"
+      "variant": "alter",
+      "subvariant": "xfce"
    }
 ]
